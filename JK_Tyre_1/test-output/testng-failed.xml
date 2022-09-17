@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extendReport.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow">
+        <methods>
+          <include name="loginToUserAccount"/>
+          <include name="createObject"/>
+          <include name="closeBrowser"/>
+          <include name="capture"/>
+          <include name="to_Verify_Invite_New_Member"/>
+          <include name="logOutUserAccount"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

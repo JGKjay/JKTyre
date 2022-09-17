@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-17T15:32:40 IST" name="Suite" finished-at="2022-09-17T15:33:40 IST" duration-ms="59740">
+    <groups>
+    </groups>
+    <test started-at="2022-09-17T15:32:40 IST" name="ChromeTest" finished-at="2022-09-17T15:33:40 IST" duration-ms="59740">
+      <class name="Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow@243c4f91]" started-at="2022-09-17T15:32:40 IST" name="launchBrowser" finished-at="2022-09-17T15:32:42 IST" duration-ms="2173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow@243c4f91]" started-at="2022-09-17T15:32:42 IST" name="createObject" finished-at="2022-09-17T15:32:42 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow@243c4f91]" started-at="2022-09-17T15:32:42 IST" name="loginToUserAccount" finished-at="2022-09-17T15:32:50 IST" duration-ms="7640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="to_Verify_Invite_New_Member()[pri:1, instance:Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow@243c4f91]" started-at="2022-09-17T15:32:50 IST" name="to_Verify_Invite_New_Member" finished-at="2022-09-17T15:33:22 IST" duration-ms="32400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Verify_Invite_New_Member -->
+        <test-method is-config="true" signature="logOutUserAccount()[pri:0, instance:Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow@243c4f91]" started-at="2022-09-17T15:33:22 IST" name="logOutUserAccount" finished-at="2022-09-17T15:33:40 IST" duration-ms="17335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUserAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow@243c4f91]" started-at="2022-09-17T15:33:40 IST" name="closeBrowser" finished-at="2022-09-17T15:33:40 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="capture(org.openqa.selenium.WebDriver)[pri:0, instance:Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow@243c4f91]" started-at="2022-09-17T15:33:40 IST" name="capture" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663409020367" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated capture.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated capture.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+      </class> <!-- Catalogue.Verify_InviteStaff_Branch_SubDealer_Flow -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
