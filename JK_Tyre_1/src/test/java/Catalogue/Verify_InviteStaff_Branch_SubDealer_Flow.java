@@ -91,21 +91,19 @@ public class Verify_InviteStaff_Branch_SubDealer_Flow extends Browsers {
 	
 	
 	@BeforeTest
-	@Parameters("browser")
-	public void launchBrowser(String browser) throws Exception {
+	
+	public void launchBrowser() throws Exception {
 		
 		
  
-			  report=new ExtentReports("Verifications Of JK_Tyre Advantage" + sd.format(date) + ".html", false);
-		  test=report.startTest("Verifications Of JK_Tyre Advantage");
-		  System.out.println("ExtentReport");
-	      
-		
-		
-		if(browser.equalsIgnoreCase("Chrome"))
-		{
-			driver = openChromeBrowser();
-		}
+			  System.setProperty("webdriver.chrome.driver", "/home/hp-23/Automation/chromedriver_linux64 (1)/chromedriver");  
+         
+         // Instantiate a ChromeDriver class.     
+		 ChromeOptions op = new ChromeOptions();
+	      //disable notification parameter
+	      op.addArguments("--disable-notifications");
+		 
+		 driver=new ChromeDriver(op);  
 		
 	/*	else if(browser.equalsIgnoreCase("Firefox"))
 		{
