@@ -96,7 +96,7 @@ public class Verify_InviteStaff_Branch_SubDealer_Flow extends Browsers {
 		
 		
  
-			  System.setProperty("webdriver.chrome.driver", "/home/hp-23/Automation/chromedriver_linux64 (1)/chromedriver");  
+			  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");  
          
          // Instantiate a ChromeDriver class.     
 		 ChromeOptions op = new ChromeOptions();
