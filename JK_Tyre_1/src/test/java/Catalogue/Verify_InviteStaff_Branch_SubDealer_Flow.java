@@ -101,7 +101,7 @@ public class Verify_InviteStaff_Branch_SubDealer_Flow extends Browsers {
          // Instantiate a ChromeDriver class.     
 		 ChromeOptions op = new ChromeOptions();
 	      //disable notification parameter
-	      op.addArguments("--disable-notifications");
+	      op.addArguments("--disable-notifications","--headless", "--no-sandbox", "--disable-dev-shm-usage");
 		 
 		 driver=new ChromeDriver(op);  
 		
